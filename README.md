@@ -16,6 +16,8 @@ https://colab.research.google.com/drive/1wasqVrOToYlVtRWs4PoLGLPXBfrB4b5H?authus
 
 YOUTUBE LİNKİ:
 
+https://www.youtube.com/watch?v=df-iy5DxybM
+
 # Veri Analizi ve Modelleme Projesi
 
 Bu proje, bir veri seti üzerinde Naive Bayes, K-Nearest Neighbors (KNN) ve Lineer Regresyon modellerini kullanarak sınıflandırma ve regresyon analizi gerçekleştirmektedir. Proje, veri ön işleme, model oluşturma ve performans değerlendirmesi adımlarını içermektedir.
