@@ -1,11 +1,17 @@
 # MachineLearning
 
 GOOGLE COLAB LİNKLERİ:
--NAİVE BAYES
+
+### Naive Bayes
+
 https://colab.research.google.com/drive/1PGyGG1Wn7bmlGJxAxKdKVEnZ92W7MM96?authuser=1#scrollTo=jQiRz0T8BYza
--KNN
+
+### K-Nearest Neighbors (KNN)
+
 https://colab.research.google.com/drive/1wPQUSFJyjQJRn83-f1nFMVeDpEpA4fiR?authuser=1#scrollTo=StKC7fUXLamc
--LİNEER REGRESSİON
+
+### Lineer Regression
+
 https://colab.research.google.com/drive/1wasqVrOToYlVtRWs4PoLGLPXBfrB4b5H?authuser=1#scrollTo=eXCiDVAFDkzR
 
 YOUTUBE LİNKİ:
@@ -150,7 +156,7 @@ Kapsamlı Sonuç Analizi
 Naive Bayes ve KNN modelleri, veri setimdeki kategorik hedef değişken için uygun seçeneklerdir. Her iki modelin performansını karşılaştırarak en iyi sonucu veren modeli seçebiliriz.(Ben Lineer Regression'u tercih ederim.)
 Lineer Regresyon, sürekli bir hedef değişken için uygundur ve bu durumda en iyi sonuçları verebilir. Ancak, hedef değişkeniniz kategorikse, bu model uygun değildir.
 
-###SONUÇ 
+### Sonuç
 
 Bu projede, Naive Bayes, KNN ve Lineer Regresyon modellerini kullanarak veri setim üzerinde kapsamlı bir analiz gerçekleştirdim. Her modelin performansını değerlendirerek, veri setinize en uygun olanı belirlemek için gerekli adımları attım. Elde edilen sonuçlar, model seçiminde ve veri analizi süreçlerinde rehberlik edecektir.
 
