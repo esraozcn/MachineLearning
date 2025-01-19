@@ -1,5 +1,14 @@
 # MachineLearning
-MachineLearning
+
+GOOGLE COLAB LİNKLERİ:
+-NAİVE BAYES
+https://colab.research.google.com/drive/1PGyGG1Wn7bmlGJxAxKdKVEnZ92W7MM96?authuser=1#scrollTo=jQiRz0T8BYza
+-KNN
+https://colab.research.google.com/drive/1wPQUSFJyjQJRn83-f1nFMVeDpEpA4fiR?authuser=1#scrollTo=StKC7fUXLamc
+-LİNEER REGRESSİON
+https://colab.research.google.com/drive/1wasqVrOToYlVtRWs4PoLGLPXBfrB4b5H?authuser=1#scrollTo=eXCiDVAFDkzR
+
+YOUTUBE LİNKİ:
 
 # Veri Analizi ve Modelleme Projesi
 
@@ -95,53 +104,57 @@ weighted avg       0.74      0.77      0.73      3832
 Kapsamlı Sonuç Analizi
 
 
-1. NAİVE BAYES
-Güçlü Yönler:
-1)Hızlı ve verimli bir modeldir, büyük veri setlerinde iyi performans gösterir.
-2)Özellikler arasında bağımsızlık varsayımı geçerli olduğunda etkili sonuçlar verir.
 
-Zayıf Yönler:
-1)Özellikler arasında güçlü bir ilişki varsa, modelin performansı düşebilir.
-2)Sınıflar arasında belirgin bir ayrım yoksa, tahminlerde zayıf kalabilir.
+###NAIVE BAYES
+**Güçlü Yönler**:
+1. Hızlı ve verimli bir modeldir, büyük veri setlerinde iyi performans gösterir.
+2. Özellikler arasında bağımsızlık varsayımı geçerli olduğunda etkili sonuçlar verir.
 
-Uygunluk: Naive Bayes, veri setinizdeki özelliklerin bağımsızlık varsayımını sağladığı durumlarda iyi sonuçlar verebilir. Eğer veri setinizdeki özellikler arasında bağımsızlık varsa, bu model uygun bir seçimdir.
+**Zayıf Yönler**:
+1. Özellikler arasında güçlü bir ilişki varsa, modelin performansı düşebilir.
+2. Sınıflar arasında belirgin bir ayrım yoksa, tahminlerde zayıf kalabilir.
 
-2. KNN
-Güçlü Yönler:
-1)Basit ve anlaşılır bir modeldir, sınıflar arasında belirgin bir ayrım olduğunda iyi performans gösterir.
-2)Özelliklerin etkisini doğrudan gözlemleme imkanı sunar.
+**Uygunluk**: Naive Bayes, veri setinizdeki özelliklerin bağımsızlık varsayımını sağladığı durumlarda iyi sonuçlar verebilir. Eğer veri setinizdeki özellikler arasında bağımsızlık varsa, bu model uygun bir seçimdir.
 
-Zayıf Yönler:
-1)Büyük veri setlerinde yavaş çalışabilir, çünkü her tahmin için tüm eğitim verilerini kullanır.
-2)Gürültülü verilerde ve çok sayıda özellik olduğunda performansı düşebilir.
+---
 
-Uygunluk: KNN, veri setinizdeki sınıflar arasında belirgin bir ayrım olduğunda iyi sonuçlar verebilir. Özelliklerin ölçeklendirilmesi önemlidir; bu nedenle, verilerinizi normalleştirmek veya standartlaştırmak gerekebilir.
+### K-Nearest Neighbors (KNN)
+**Güçlü Yönler**:
+1. Basit ve anlaşılır bir modeldir, sınıflar arasında belirgin bir ayrım olduğunda iyi performans gösterir.
+2. Özelliklerin etkisini doğrudan gözlemleme imkanı sunar.
 
-3. LINEER REGRESSION
-Güçlü Yönler:
-1)Sürekli bir hedef değişkeni tahmin etmek için etkili bir modeldir.
-2)Modelin sonuçları kolayca yorumlanabilir ve anlaşılabilir.
+**Zayıf Yönler**:
+1. Büyük veri setlerinde yavaş çalışabilir, çünkü her tahmin için tüm eğitim verilerini kullanır.
+2. Gürültülü verilerde ve çok sayıda özellik olduğunda performansı düşebilir.
 
-Zayıf Yönler:
-1)Modelin varsayımları (doğrusal ilişki, normal dağılım, homoscedasticity) sağlanmadığında performansı düşebilir.
-2)Aykırı değerlere karşı hassastır.
+**Uygunluk**: KNN, veri setinizdeki sınıflar arasında belirgin bir ayrım olduğunda iyi sonuçlar verebilir. Özelliklerin ölçeklendirilmesi önemlidir; bu nedenle, verilerinizi normalleştirmek veya standartlaştırmak gerekebilir.
 
-Uygunluk: Lineer Regresyon, sürekli bir hedef değişkeniniz varsa ve modelin varsayımları sağlanıyorsa en uygun modeldir. Ancak, hedef değişkeniniz kategorikse, bu model kullanılmamalıdır.
+---
 
-GENEL DEĞERLENDİRME
+### Lineer Regresyon
+
+**Güçlü Yönler**:
+1. Sürekli bir hedef değişkeni tahmin etmek için etkili bir modeldir.
+2. Modelin sonuçları kolayca yorumlanabilir ve anlaşılabilir.
+
+**Zayıf Yönler**:
+1. Modelin varsayımları (doğrusal ilişki, normal dağılım, homoscedasticity) sağlanmadığında performansı düşebilir.
+2. Aykırı değerlere karşı hassastır.
+
+**Uygunluk**: Lineer Regresyon, sürekli bir hedef değişkeni varsa ve modelin varsayımları sağlanıyorsa en uygun modeldir.
+
+---
+
+### Genel Değerlendirme
 
 Naive Bayes ve KNN modelleri, veri setimdeki kategorik hedef değişken için uygun seçeneklerdir. Her iki modelin performansını karşılaştırarak en iyi sonucu veren modeli seçebiliriz.(Ben Lineer Regression'u tercih ederim.)
 Lineer Regresyon, sürekli bir hedef değişken için uygundur ve bu durumda en iyi sonuçları verebilir. Ancak, hedef değişkeniniz kategorikse, bu model uygun değildir.
-Sonuç
+
+###SONUÇ 
+
 Bu projede, Naive Bayes, KNN ve Lineer Regresyon modellerini kullanarak veri setim üzerinde kapsamlı bir analiz gerçekleştirdim. Her modelin performansını değerlendirerek, veri setinize en uygun olanı belirlemek için gerekli adımları attım. Elde edilen sonuçlar, model seçiminde ve veri analizi süreçlerinde rehberlik edecektir.
 
 
 
-GOOGLE COLAB LİNKLERİM AŞAĞIDADIR:
--NAİVE BAYES
-https://colab.research.google.com/drive/1PGyGG1Wn7bmlGJxAxKdKVEnZ92W7MM96?authuser=1#scrollTo=jQiRz0T8BYza
--KNN
-https://colab.research.google.com/drive/1wPQUSFJyjQJRn83-f1nFMVeDpEpA4fiR?authuser=1#scrollTo=StKC7fUXLamc
--LİNEER REGRESSİON
-https://colab.research.google.com/drive/1wasqVrOToYlVtRWs4PoLGLPXBfrB4b5H?authuser=1#scrollTo=eXCiDVAFDkzR
+
 
